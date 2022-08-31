@@ -7,6 +7,6 @@
 
 #include <stdio.h>
 
-void print_error(const char *msg);
+void println_error(const char *msg);
 
 #endif //ALGORITHM__C_UTIL_H

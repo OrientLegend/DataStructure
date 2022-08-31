@@ -8,7 +8,7 @@
 linear_list_node_ptr linear_list_node_create(int val, linear_list_node_ptr prev, linear_list_node_ptr next) {
     linear_list_node_ptr llnp = (linear_list_node_ptr) malloc(sizeof(linear_list_node));
     if (llnp == NULL) {
-        print_error("create_linear_list_node error");
+        println_error("create_linear_list_node error");
         return NULL;
     }
     llnp->data = val;
